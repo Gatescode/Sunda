@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Apercu-Font/Apercu Bold Italic.otf</string>
+		<string>Apercu-Font/Apercu Bold.otf</string>
+		<string>Apercu-Font/Apercu Italic.otf</string>
+		<string>Apercu-Font/Apercu Light Italic.otf</string>
+		<string>Apercu-Font/Apercu Light.otf</string>
+		<string>Apercu-Font/Apercu Medium Italic.otf</string>
+		<string>Apercu-Font/Apercu Medium.otf</string>
+		<string>Apercu-Font/Apercu Mono.otf</string>
+		<string>Apercu-Font/Apercu Pro Bold Italic.otf</string>
+		<string>Apercu-Font/Apercu Pro Bold.otf</string>
+		<string>Apercu-Font/Apercu Pro Italic.otf</string>
+		<string>Apercu-Font/Apercu Pro Light Italic.otf</string>
+		<string>Apercu-Font/Apercu Pro Light.otf</string>
+		<string>Apercu-Font/Apercu Pro Medium.otf</string>
+		<string>Apercu-Font/Apercu Pro Medium Italic.otf</string>
+		<string>Apercu-Font/Apercu Pro Mono.otf</string>
+		<string>Apercu-Font/Apercu Pro Regular.otf</string>
+		<string>Apercu-Font/Apercu Regular.otf</string>
+	</array>
+</dict>
+</plist>
