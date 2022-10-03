@@ -11,7 +11,7 @@ import Foundation
 struct Scanner: View {
     var image: CGImage?
     private let label = Text("frame")
-
+    // test
     var body: some View {
         if let image = image {
             Image(image, scale: 1.0, orientation: .up, label: label)
