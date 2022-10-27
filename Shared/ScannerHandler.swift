@@ -56,6 +56,7 @@ class ScannerHandler: NSObject,ObservableObject {
         videoOutput.connection(with: .video)?.videoOrientation = .portrait
         
     }
+    
 }
 
 extension ScannerHandler: AVCaptureVideoDataOutputSampleBufferDelegate {

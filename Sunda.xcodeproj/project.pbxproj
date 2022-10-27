@@ -11,6 +11,8 @@
 		22517D6028DEE550008BB830 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22517D5E28DEE550008BB830 /* Scanner.swift */; };
 		22517D6528E81878008BB830 /* ScannerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22517D6428E81878008BB830 /* ScannerHandler.swift */; };
 		22517D6628E81878008BB830 /* ScannerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22517D6428E81878008BB830 /* ScannerHandler.swift */; };
+		225CC90528FCD3FE007227D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228519CC28B4848500E699F6 /* Assets.xcassets */; };
+		225CC90728FCD48D007227D5 /* Apercu-Font in Resources */ = {isa = PBXBuildFile; fileRef = 225CC90628FCD48C007227D5 /* Apercu-Font */; };
 		228519E328B4848500E699F6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228519E228B4848500E699F6 /* Tests_iOS.swift */; };
 		228519E528B4848500E699F6 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228519E428B4848500E699F6 /* Tests_iOSLaunchTests.swift */; };
 		228519EF28B4848500E699F6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228519EE28B4848500E699F6 /* Tests_macOS.swift */; };
@@ -19,18 +21,13 @@
 		228519F328B4848500E699F6 /* SundaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228519CA28B4847E00E699F6 /* SundaApp.swift */; };
 		228519F428B4848500E699F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228519CB28B4847E00E699F6 /* ContentView.swift */; };
 		228519F528B4848500E699F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228519CB28B4847E00E699F6 /* ContentView.swift */; };
-		228519F628B4848500E699F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228519CC28B4848500E699F6 /* Assets.xcassets */; };
 		228519F728B4848500E699F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228519CC28B4848500E699F6 /* Assets.xcassets */; };
 		22851A0728B5CE1D00E699F6 /* HomeNavigationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22851A0628B5CE1D00E699F6 /* HomeNavigationTest.swift */; };
 		22851A0828B5CE1D00E699F6 /* HomeNavigationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22851A0628B5CE1D00E699F6 /* HomeNavigationTest.swift */; };
 		22851A0A28B991C800E699F6 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22851A0928B991C800E699F6 /* SplashScreenView.swift */; };
 		22851A0B28B991C800E699F6 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22851A0928B991C800E699F6 /* SplashScreenView.swift */; };
-		22851A1128B9A5B600E699F6 /* Apercu-Font in Resources */ = {isa = PBXBuildFile; fileRef = 22851A1028B9A5B600E699F6 /* Apercu-Font */; };
-		22851A1228B9A5B600E699F6 /* Apercu-Font in Resources */ = {isa = PBXBuildFile; fileRef = 22851A1028B9A5B600E699F6 /* Apercu-Font */; };
 		22851A1B28B9BF8800E699F6 /* FirstTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22851A1A28B9BF8700E699F6 /* FirstTime.swift */; };
 		22851A1C28B9BF8800E699F6 /* FirstTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22851A1A28B9BF8700E699F6 /* FirstTime.swift */; };
-		22851A2728BDC4CE00E699F6 /* TODO.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22851A2628BDC4CE00E699F6 /* TODO.rtf */; };
-		22851A2828BDC4CE00E699F6 /* TODO.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22851A2628BDC4CE00E699F6 /* TODO.rtf */; };
 		22851A2A28BDCE9500E699F6 /* FirstTimeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22851A2928BDCE9500E699F6 /* FirstTimeForm.swift */; };
 		22851A2B28BDCE9500E699F6 /* FirstTimeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22851A2928BDCE9500E699F6 /* FirstTimeForm.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +52,7 @@
 /* Begin PBXFileReference section */
 		22517D5E28DEE550008BB830 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
 		22517D6428E81878008BB830 /* ScannerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerHandler.swift; sourceTree = "<group>"; };
+		225CC90628FCD48C007227D5 /* Apercu-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Apercu-Font"; path = "../../../../../Downloads/Apercu/Apercu/Apercu-Font"; sourceTree = "<group>"; };
 		228519CA28B4847E00E699F6 /* SundaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundaApp.swift; sourceTree = "<group>"; };
 		228519CB28B4847E00E699F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		228519CC28B4848500E699F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,10 +67,8 @@
 		228519F028B4848500E699F6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		22851A0628B5CE1D00E699F6 /* HomeNavigationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationTest.swift; sourceTree = "<group>"; };
 		22851A0928B991C800E699F6 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
-		22851A1028B9A5B600E699F6 /* Apercu-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Apercu-Font"; path = "../../../../Downloads/Apercu-Font"; sourceTree = "<group>"; };
-		22851A1328B9A87200E699F6 /* Sunda--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sunda--iOS--Info.plist"; sourceTree = "<group>"; };
+		22851A1328B9A87200E699F6 /* Sunda--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sunda--iOS--Info.plist"; sourceTree = "<group>"; };
 		22851A1A28B9BF8700E699F6 /* FirstTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTime.swift; sourceTree = "<group>"; };
-		22851A2628BDC4CE00E699F6 /* TODO.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = TODO.rtf; path = ../../../TODO.rtf; sourceTree = "<group>"; };
 		22851A2928BDCE9500E699F6 /* FirstTimeForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +107,7 @@
 		228519C428B4847D00E699F6 = {
 			isa = PBXGroup;
 			children = (
+				225CC90628FCD48C007227D5 /* Apercu-Font */,
 				22851A1328B9A87200E699F6 /* Sunda--iOS--Info.plist */,
 				228519C928B4847E00E699F6 /* Shared */,
 				228519D828B4848500E699F6 /* macOS */,
@@ -123,7 +120,6 @@
 		228519C928B4847E00E699F6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				22851A1028B9A5B600E699F6 /* Apercu-Font */,
 				228519CA28B4847E00E699F6 /* SundaApp.swift */,
 				228519CB28B4847E00E699F6 /* ContentView.swift */,
 				22851A1A28B9BF8700E699F6 /* FirstTime.swift */,
@@ -133,7 +129,6 @@
 				22851A0628B5CE1D00E699F6 /* HomeNavigationTest.swift */,
 				22517D5E28DEE550008BB830 /* Scanner.swift */,
 				22517D6428E81878008BB830 /* ScannerHandler.swift */,
-				22851A2628BDC4CE00E699F6 /* TODO.rtf */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -184,7 +179,7 @@
 			buildPhases = (
 				228519CD28B4848500E699F6 /* Sources */,
 				228519CE28B4848500E699F6 /* Frameworks */,
-				228519CF28B4848500E699F6 /* Resources */,
+				225CC8F228FCD3ED007227D5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -296,13 +291,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		228519CF28B4848500E699F6 /* Resources */ = {
+		225CC8F228FCD3ED007227D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				228519F628B4848500E699F6 /* Assets.xcassets in Resources */,
-				22851A1128B9A5B600E699F6 /* Apercu-Font in Resources */,
-				22851A2728BDC4CE00E699F6 /* TODO.rtf in Resources */,
+				225CC90528FCD3FE007227D5 /* Assets.xcassets in Resources */,
+				225CC90728FCD48D007227D5 /* Apercu-Font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,8 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				228519F728B4848500E699F6 /* Assets.xcassets in Resources */,
-				22851A1228B9A5B600E699F6 /* Apercu-Font in Resources */,
-				22851A2828BDC4CE00E699F6 /* TODO.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

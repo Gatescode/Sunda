@@ -8,17 +8,26 @@
 import SwiftUI
 import Foundation
 
+func logtest() {
+    print("ayo test")
+}
+
 struct Scanner: View {
     var image: CGImage?
+    
     private let label = Text("frame")
-    // test
+    
     var body: some View {
+        
         if let image = image {
-            Image(image, scale: 1.0, orientation: .up, label: label)
+            Image(image, scale: 1.0, orientation: .up, label: label)//.overlay()
+            
         } else {
-            Color.black
+            Button("", action: logtest).frame(width: 200, height: 200).background(Color("mintytheme")).clipShape(Circle())
+            
         }
     }
+    
 }
 
 struct Scanner_Previews: PreviewProvider {

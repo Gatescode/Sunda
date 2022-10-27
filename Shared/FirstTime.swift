@@ -28,8 +28,8 @@ struct FirstTime: View {
         }
         else {
             VStack(alignment: .center) {
-                Image("Newcomer").aspectRatio(contentMode: .fit).frame(alignment: .topLeading).padding([.bottom], 50)
-                Text("Welcome to Sunda.").font(Font.custom("Apercu Medium", size: 24)).padding([.bottom], 10)
+                Image("Newcomer").resizable().aspectRatio(contentMode: .fit).padding(.bottom, 50)
+                Text("Welcome to Sunda.").font(Font.custom("Apercu Medium", size: 24)).padding([.bottom], 10).frame(height: nil)
                 Text("Description").font(Font.custom("Apercu Regular", size: 18)).padding([.bottom], 50)
                 Button {
                     formShow = true
