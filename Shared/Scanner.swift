@@ -20,10 +20,14 @@ struct Scanner: View {
     var body: some View {
         
         if let image = image {
-            Image(image, scale: 1.0, orientation: .up, label: label)//.overlay()
+            Image(image, scale: 1.0, orientation: .up, label: label).overlay(Button(action: logtest) {
+                Text("")
+                    .frame(width: 75, height: 75)
+                    .padding(0.0).buttonBorderShape(.roundedRectangle(radius: 100))
+            }.background(Color.green).clipShape(Circle()).offset(x: 0, y: 250))
             
         } else {
-            Button("", action: logtest).frame(width: 200, height: 200).background(Color("mintytheme")).clipShape(Circle())
+            Color.black
             
         }
     }
